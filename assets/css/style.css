@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header and navigation rule */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +18,7 @@ header {
 }
 
 header h1 {
-    display:inline;
+    display: inline;
     font-size: 48px;
 }
 
@@ -50,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/* This is the hero image, moved to a figure tag */
+
 figure img {
     width: 100%;
     margin-bottom: 25px;
@@ -57,10 +61,30 @@ figure img {
     background-position: center;
 }
 
+/* Section content for the main page - all rules included */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.content article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -72,6 +96,8 @@ figure img {
     float: right;
     margin-left: 25px;
 }
+
+/* Aside tag - bar along the side with points */
 
 .benefits {
     margin-right: 20px;
@@ -100,23 +126,7 @@ figure img {
     max-width: 150px;
 }
 
-.content article{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer rules */
 
 footer {
     padding: 30px;
