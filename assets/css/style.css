@@ -16,8 +16,9 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    display:inline;
     font-size: 48px;
+    /* float: left; */
 }
 
 header h1 .seo {
@@ -29,17 +30,21 @@ nav {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    display: inline-block;
-    justify-content: right;
+    display: inline;
+    align-content: center;
+    float: right;
     
 }
 
 nav ul {
     list-style-type: none;
+    display: inline-block;
+    /* margin-left: 25px; */
+    float: right;
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
@@ -189,13 +194,13 @@ figure img {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
